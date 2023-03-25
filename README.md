@@ -3,4 +3,4 @@
 Languages:
 1. React.js
 2. Next.js
-3.
+3. Tailwind
