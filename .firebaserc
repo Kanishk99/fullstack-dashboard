@@ -1,8 +1,0 @@
-{
-  "projects": {
-    "default": "fullstack-dashboard-c4c9e",
-    "staging": "fullstack-dashboard-c4c9e"
-  },
-  "targets": {},
-  "etags": {}
-}
