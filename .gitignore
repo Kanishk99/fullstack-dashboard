@@ -38,6 +38,9 @@ yarn-error.log*
 next-env.d.ts
 
 #pocketbase
+pb_data
+pb_migrations
+pocketbase
 /pb_data/
 /pb_migrations/
 pocketbase.exe
