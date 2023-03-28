@@ -35,12 +35,12 @@ export default async function Dashboard() {
                     // console.log(current_poke.base_experience)
                     console.log(index);
                     console.log(poke.name)
-                    setCurrentPoke(index).then(x => {
-                        // console.log('x', x);
-                        // let test = x;
-                        // <Pokemon/>;
-                        return x as number;
-                    });;
+                    // setCurrentPoke(index).then(x => {
+                    //     // console.log('x', x);
+                    //     // let test = x;
+                    //     // <Pokemon/>;
+                    //     return x as number;
+                    // });;
                     // console.log("outer exp", test)
                     return <Pokemon  key={index} name={poke.name} index={index} />;
 
@@ -49,15 +49,15 @@ export default async function Dashboard() {
         </div>
     )
 }
-async function setCurrentPoke(index: any) {
-    let current_poke = await getPokemon(index);
-    let exp = await current_poke.base_experience;
-    // console.log("set exp", exp)
-    // console.log(current_poke.base_experience)
-    // console.log("base_experience", current_poke.base_experience)
-    const base_experience = current_poke.base_experience
-    return exp;
-}
+// async function setCurrentPoke(index: any) {
+//     let current_poke = await getPokemon(index);
+//     let exp = await current_poke.base_experience;
+//     // console.log("set exp", exp)
+//     // console.log(current_poke.base_experience)
+//     // console.log("base_experience", current_poke.base_experience)
+//     // const base_experience = current_poke.base_experience
+//     return exp;
+// }
 function Pokemon({ index, name, base_experience }: any) {
     name = name.toUpperCase()
     console.log("new", base_experience)
