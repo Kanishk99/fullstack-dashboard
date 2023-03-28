@@ -1,8 +1,10 @@
+import Dashboard from "./Dashboard/page"
 
 export default function HomePage() {
     return (
-            <div>
-                <h1>Hello Dashboard!</h1>
-            </div>
+        <div>
+            <Dashboard />
+            <h1>Hello Dashboard!</h1>
+        </div>
     )
 }
